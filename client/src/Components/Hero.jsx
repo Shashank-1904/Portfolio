@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroImg from './../assets/Images/hero.png';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import cv from './../assets/CV/ShashankCV.pdf';
 
 function Hero() {
   const [text] = useTypewriter({
@@ -26,8 +27,8 @@ function Hero() {
         </p>
 
         <div className='flex mt-10 justify-center my-10'>
-          <a href='#' className='py-3 px-4 mx-3 rounded-md border text-sm lg:text-lg sm:text-sm'>Github</a>
-          <a href='#' className='py-3 px-4 mx-3 rounded-md border text-sm bg-tertiary lg:text-lg sm:text-sm'>Download CV</a>
+          <a href='https://github.com/Shashank-1904/' className='py-3 px-4 mx-3 rounded-md border text-sm lg:text-lg sm:text-sm'>Github</a>
+          <a href={cv} className='py-3 px-4 mx-3 rounded-md border text-sm bg-tertiary lg:text-lg sm:text-sm'>Download CV</a>
         </div>
       </div>
     </div>
