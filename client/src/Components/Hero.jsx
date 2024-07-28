@@ -27,8 +27,8 @@ function Hero() {
         </p>
 
         <div className='flex mt-10 justify-center my-10'>
-          <a target="_blank" href='https://github.com/Shashank-1904/' className='py-3 px-4 mx-3 rounded-md border text-sm lg:text-lg sm:text-sm'>Github</a>
-          <a target="_blank" href={cv} className='py-3 px-4 mx-3 rounded-md border text-sm bg-tertiary lg:text-lg sm:text-sm'>Download CV</a>
+          <a href='https://github.com/Shashank-1904/' className='py-3 px-4 mx-3 rounded-md border text-sm lg:text-lg sm:text-sm' target="_blank">Github</a>
+          <a href={cv} className='py-3 px-4 mx-3 rounded-md border text-sm bg-tertiary lg:text-lg sm:text-sm' target="_blank">Download CV</a>
         </div>
       </div>
     </div>
